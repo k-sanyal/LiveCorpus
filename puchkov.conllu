@@ -5,7 +5,7 @@
 2	говорите	говорить	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	_	_	_	words@dyp1961m#@dyp1961m#3180.298#3180.489
 3	/	/	PUNCT	_	_	_	_	_	words@dyp1961m#@dyp1961m#3180.489#3180.68
 4	/	/	PUNCT	_	_	_	_	_	words@dyp1961m#@dyp1961m#3180.68#3180.873
-5	НА	на	ADP	_	_	_	_	_	words@dyp1961m#@dyp1961m#3182.17#3182.505
+5	на	на	ADP	_	_	_	_	_	words@dyp1961m#@dyp1961m#3182.17#3182.505
 6	/	/	PUNCT	_	_	_	_	_	words@dyp1961m#@dyp1961m#3182.505#3182.84
 7	тюрьме	тюрьма	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	_	_	_	words@dyp1961m#@dyp1961m#3182.84#3183.176
 8	Первое	первый	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	_	_	_	words@dyp1961m#@dyp1961m#3193.135#3193.536
