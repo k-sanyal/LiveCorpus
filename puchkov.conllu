@@ -1,7 +1,7 @@
 # generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
 # udpipe_model = russian-syntagrus-ud-2.6-200830
 # udpipe_model_licence = CC BY-NC-SA
-1	Вы	вы	PRON	_	Case=Nom|Number=Plur|Person=2	_	_	_	words@dyp1961m#@dyp1961m#3180.107#3180.298
+1	вы	вы	PRON	_	Case=Nom|Number=Plur|Person=2	_	_	_	words@dyp1961m#@dyp1961m#3180.107#3180.298
 2	говорите	говорить	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	_	_	_	words@dyp1961m#@dyp1961m#3180.298#3180.489
 3	/	/	PUNCT	_	_	_	_	_	words@dyp1961m#@dyp1961m#3180.489#3180.68
 4	/	/	PUNCT	_	_	_	_	_	words@dyp1961m#@dyp1961m#3180.68#3180.873
@@ -131,8 +131,8 @@
 128	/	/	PUNCT	_	_	_	_	_	words@dyp1961m#@dyp1961m#3287.215#3287.518
 129	для	для	ADP	_	_	_	_	_	words@dyp1961m#@dyp1961m#3287.518#3287.821
 130	того	то	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	_	_	_	words@dyp1961m#@dyp1961m#3287.821#3288.124
-131	что	что	PRON	_	Case=Acc	_	_	_	words@dyp1961m#@dyp1961m#3288.124#3288.427
-132	бы	бы	AUX	_	_	_	_	_	words@dyp1961m#@dyp1961m#3288.427#3288.73
+131	чтобы	чтобы	SCONJ	_	Case=Acc	_	_	_	words@dyp1961m#@dyp1961m#3288.124#3288.427
+132	/	/	PUNCT	_	_	_	_	_	words@dyp1961m#@dyp1961m#3288.427#3288.73
 133	попасть	попасть	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	_	_	_	words@dyp1961m#@dyp1961m#3288.73#3289.033
 134	в	в	ADP	_	_	_	_	_	words@dyp1961m#@dyp1961m#3289.033#3289.336
 135	касту	каста	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	_	_	_	words@dyp1961m#@dyp1961m#3289.336#3289.639
@@ -358,7 +358,7 @@
 355	косячишь	косячить	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=2|Tense=Fut|VerbForm=Fin|Voice=Act	_	_	_	words@dyp1961m#@dyp1961m#3364.358#3364.629
 356	/	/	PUNCT	_	_	_	_	_	words@dyp1961m#@dyp1961m#3364.629#3364.9
 357	то	то	SCONJ	_	_	_	_	_	words@dyp1961m#@dyp1961m#3364.9#3365.171
-358	ниче	ничего	ADV	_	Degree=Cmp	_	_	_	words@dyp1961m#@dyp1961m#3365.171#3365.442
+358	ниче	ничто	PRON	_	Degree=Cmp	_	_	_	words@dyp1961m#@dyp1961m#3365.171#3365.442
 359	с	с	ADP	_	_	_	_	_	words@dyp1961m#@dyp1961m#3365.442#3365.713
 360	тобой	ты	PRON	_	Case=Ins|Number=Sing|Person=2	_	_	_	words@dyp1961m#@dyp1961m#3365.713#3365.984
 361	и	и	PART	_	_	_	_	_	words@dyp1961m#@dyp1961m#3365.984#3366.255
@@ -546,7 +546,7 @@
 543	это	это	PRON	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	_	_	_	words@dyp1961m#@dyp1961m#3457.283#3457.555
 544	в	в	ADP	_	_	_	_	_	words@dyp1961m#@dyp1961m#3457.555#3457.827
 545	игре	игра	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	_	_	_	words@dyp1961m#@dyp1961m#3457.827#3458.099
-546	реализованно	реализованно	ADV	_	Degree=Pos	_	_	_	words@dyp1961m#@dyp1961m#3458.099#3458.371
+546	реализованно	реализовано	ADJ	_	Degree=Pos	_	_	_	words@dyp1961m#@dyp1961m#3458.099#3458.371
 547	я	я	PRON	_	Case=Nom|Number=Sing|Person=1	_	_	_	words@dyp1961m#@dyp1961m#3458.371#3458.643
 548	не	не	PART	_	_	_	_	_	words@dyp1961m#@dyp1961m#3458.643#3458.915
 549	видел	видеть	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	_	_	_	words@dyp1961m#@dyp1961m#3458.915#3459.187
@@ -587,8 +587,8 @@
 584	кино	кино	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	_	_	_	words@dyp1961m#@dyp1961m#3468.435#3468.707
 585	/	/	PUNCT	_	_	_	_	_	words@dyp1961m#@dyp1961m#3468.707#3468.986
 586	Это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	_	_	_	words@dyp1961m#@dyp1961m#3472.223#3472.505
-587	врятле	врятле	ADJ	_	Degree=Pos	_	_	_	words@dyp1961m#@dyp1961m#3472.505#3472.787
-588	/	/	PUNCT	_	_	_	_	_	words@dyp1961m#@dyp1961m#3472.787#3473.069
+587	вряд	вряд	ADV	_	Degree=Pos	_	_	_	words@dyp1961m#@dyp1961m#3472.505#3472.787
+588	ли	ли	ADV	_	_	_	_	_	words@dyp1961m#@dyp1961m#3472.787#3473.069
 589	/	/	PUNCT	_	_	_	_	_	words@dyp1961m#@dyp1961m#3473.069#3473.351
 590	денежки	денежка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	_	_	_	words@dyp1961m#@dyp1961m#3473.351#3473.633
 591	то	тот	DET	_	_	_	_	_	words@dyp1961m#@dyp1961m#3473.633#3473.915
@@ -664,10 +664,10 @@
 661	/	/	PUNCT	_	_	_	_	_	words@dyp1961m#@dyp1961m#3493.373#3493.655
 662	что	что	SCONJ	_	_	_	_	_	words@dyp1961m#@dyp1961m#3493.655#3493.937
 663	злобный	злобный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	_	_	_	words@dyp1961m#@dyp1961m#3493.937#3494.219
-664	десиптикон	десиптикон	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	_	_	_	words@dyp1961m#@dyp1961m#3494.219#3494.501
+664	десептикон	десептикон	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	_	_	_	words@dyp1961m#@dyp1961m#3494.219#3494.501
 665	запрыгивает	запрыгивать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	_	_	_	words@dyp1961m#@dyp1961m#3494.501#3494.783
 666	на	на	ADP	_	_	_	_	_	words@dyp1961m#@dyp1961m#3494.783#3495.065
-667	бруклинский	бруклинский	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	_	_	_	words@dyp1961m#@dyp1961m#3495.065#3495.347
+667	Бруклинский	Бруклинский	PROPN	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	_	_	_	words@dyp1961m#@dyp1961m#3495.065#3495.347
 668	мост	мост	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	_	_	_	words@dyp1961m#@dyp1961m#3495.347#3495.629
 669	и	и	CCONJ	_	_	_	_	_	words@dyp1961m#@dyp1961m#3495.629#3495.911
 670	сшибает	сшибать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	_	_	_	words@dyp1961m#@dyp1961m#3495.911#3496.193
@@ -747,9 +747,9 @@
 744	книг	книга	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	_	_	_	words@dyp1961m#@dyp1961m#3516.779#3517.061
 745	/	/	PUNCT	_	_	_	_	_	words@dyp1961m#@dyp1961m#3517.061#3517.343
 746	вот	вот	PART	_	_	_	_	_	words@dyp1961m#@dyp1961m#3517.343#3517.625
-747	солженицын	солженицын	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	_	_	_	words@dyp1961m#@dyp1961m#3517.625#3517.907
+747	Солженицын	Солженицын	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	_	_	_	words@dyp1961m#@dyp1961m#3517.625#3517.907
 748	/	/	PUNCT	_	_	_	_	_	words@dyp1961m#@dyp1961m#3517.907#3518.189
-749	гроссман	гроссман	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	_	_	_	words@dyp1961m#@dyp1961m#3518.189#3518.471
+749	Гроссман	Гроссман	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	_	_	_	words@dyp1961m#@dyp1961m#3518.189#3518.471
 750	/	/	PUNCT	_	_	_	_	_	words@dyp1961m#@dyp1961m#3518.471#3518.753
 751	это	это	PRON	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	_	_	_	words@dyp1961m#@dyp1961m#3518.753#3519.035
 752	же	же	PART	_	_	_	_	_	words@dyp1961m#@dyp1961m#3519.035#3519.317
@@ -944,7 +944,7 @@
 941	/	/	PUNCT	_	_	_	_	_	words@dae1980m#@dae1980m#3430.617#3430.881
 942	там	там	ADV	_	Degree=Pos	_	_	_	words@dae1980m#@dae1980m#3430.881#3431.145
 943	/	/	PUNCT	_	_	_	_	_	words@dae1980m#@dae1980m#3431.145#3431.409
-944	че-то	че-то	PRON	_	Case=Nom	_	_	_	words@dae1980m#@dae1980m#3431.409#3431.673
+944	че-то	что-то	PRON	_	Case=Nom	_	_	_	words@dae1980m#@dae1980m#3431.409#3431.673
 945	там	там	ADV	_	Degree=Pos	_	_	_	words@dae1980m#@dae1980m#3431.673#3431.937
 946	/	/	PUNCT	_	_	_	_	_	words@dae1980m#@dae1980m#3431.937#3432.201
 947	межгрупповые	межгрупповой	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	_	_	_	words@dae1980m#@dae1980m#3432.201#3432.465
@@ -980,7 +980,7 @@
 977	правда	правда	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	_	_	_	words@dae1980m#@dae1980m#3469.384#3469.573
 978	/	/	PUNCT	_	_	_	_	_	words@dae1980m#@dae1980m#3469.573#3469.762
 979	из	из	ADP	_	_	_	_	_	words@dae1980m#@dae1980m#3469.762#3469.951
-980	польши	польша	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	_	_	_	words@dae1980m#@dae1980m#3469.951#3470.14
+980	Польши	Польша	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	_	_	_	words@dae1980m#@dae1980m#3469.951#3470.14
 981	могут	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	_	_	_	words@dae1980m#@dae1980m#3470.14#3470.329
 982	попереть	попереть	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	_	_	_	words@dae1980m#@dae1980m#3470.329#3470.518
 983	/	/	PUNCT	_	_	_	_	_	words@dae1980m#@dae1980m#3470.518#3470.707
@@ -1154,7 +1154,7 @@
 1151	самые	самый	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	_	_	_	words@nsd1990m#@nsd1990m#3200.656#3200.881
 1152	известные	известный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	_	_	_	words@nsd1990m#@nsd1990m#3200.881#3201.106
 1153	/	/	PUNCT	_	_	_	_	_	words@nsd1990m#@nsd1990m#3201.106#3201.331
-1154	распостраненны	распостраненный	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	_	_	_	words@nsd1990m#@nsd1990m#3201.331#3201.556
+1154	распостраненны	распостраненны	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	_	_	_	words@nsd1990m#@nsd1990m#3201.331#3201.556
 1155	/	/	PUNCT	_	_	_	_	_	words@nsd1990m#@nsd1990m#3201.556#3201.781
 1156	/	/	PUNCT	_	_	_	_	_	words@nsd1990m#@nsd1990m#3201.781#3202.006
 1157	то	то	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	_	_	_	words@nsd1990m#@nsd1990m#3202.006#3202.231
